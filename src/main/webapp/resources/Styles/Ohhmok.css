@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.container {
+	position:relative;
+	width:500px;
+	height:500px;
+	margin-left : 550px;
+	
+	border:1px solid #ccc;
+	
+	z-index: 10;
+}
+.dots{
+	position:absolute;
+	top:8px;
+	left:8px;
+	
+	z-index: 1;
+}
+.board {
+	width : 500px;
+	height : 500px;
+	background: rgba(255,255,255,.5);
+}
+h1{
+	text-align: center;
+}
+
+#i22{
+	top: 50px;
+	left: 50px;
+}
